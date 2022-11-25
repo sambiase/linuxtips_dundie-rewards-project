@@ -26,7 +26,7 @@ setup(
     name='Dundie',
     author='Sambiase',
     description='Reward Point System',
-    long_description=read('Readme.md'),
+    long_description=read('README.md'),
     long_description_content_type = 'text/markdown',
     version='0.1.0',
     packages=find_packages(),  # o find_packages importa todos os subpacotes dentro de dundie que tenham o __init__.py
