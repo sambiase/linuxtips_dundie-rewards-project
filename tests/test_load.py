@@ -1,6 +1,10 @@
 from dundie.core import load
-from contants import PEOPLE_FILE
+from .constants import PEOPLE_FILE
 
 
-def test_load():
-    assert load(PEOPLE_FILE)[0][0] == 'J'
+def test_length_load():
+    assert len(load(PEOPLE_FILE)) == 2
+
+
+def test_item_load():
+    assert load(PEOPLE_FILE)[0][0] == 'A'

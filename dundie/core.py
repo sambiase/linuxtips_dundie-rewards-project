@@ -1,3 +1,5 @@
+""" Core module of Dundie Soft
+This module contains the main programs`s functions"""
 
 
 def load(filepath):

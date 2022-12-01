@@ -2,6 +2,7 @@ import argparse
 import sys
 from dundie.core import load
 
+
 # O nome da função não necessariamente precisa se chamar 'main'
 def main():
     parser = argparse.ArgumentParser(
