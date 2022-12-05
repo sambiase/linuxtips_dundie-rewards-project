@@ -28,6 +28,7 @@ setup(
     description='Reward Point System',
     long_description=read('README.md'),
     long_description_content_type = 'text/markdown',
+    python_requires='>=3.9', # projeto somente roda em versoes maiores ou iguais a 3.9
     version='0.1.0',
     packages=find_packages(),  # o find_packages importa todos os subpacotes dentro de dundie que tenham o __init__.py
     # packages=['dundie'] usariamos assim caso quisessemos importar somente o pacote dundie
