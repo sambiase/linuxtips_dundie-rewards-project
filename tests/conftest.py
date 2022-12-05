@@ -1,5 +1,5 @@
 MARKER = """\
-integration: Marker integration tests
+unit: Marker unit tests
 high: High Priority 
 medium: Medium Priority 
 low: Low Priority 

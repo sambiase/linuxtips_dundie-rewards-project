@@ -16,4 +16,4 @@ upgrade_pip:
 	@.venv/bin/python -m pip install --upgrade pip
 
 test:
-	@.venv/bin/pytest -vv -s tests/
+	@.venv/bin/pytest -vv -s
