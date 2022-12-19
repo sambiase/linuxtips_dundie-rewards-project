@@ -1,3 +1,7 @@
 ipdb
 ipython>=7.0.0,<=8.0.0
 pudb
+
+#QA
+flake8
+pyproject-flake8

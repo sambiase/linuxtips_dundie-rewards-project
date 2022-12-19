@@ -1,6 +1,8 @@
 import argparse
 import sys
-from dundie.core import load
+
+
+# from dundie.core import load
 
 
 # O nome da função não necessariamente precisa se chamar 'main'
@@ -24,7 +26,7 @@ def main():
     )
     args = parser.parse_args()
     try:
-        print(*globals()[args.subcommand](args.filepath),end='')
+        print(*globals()[args.subcommand](args.filepath), end='')
     except KeyError:
         print('Invalid Subcommand')
         sys.exit(1)

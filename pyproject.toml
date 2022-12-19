@@ -6,3 +6,23 @@ testpaths = [
     "tests",
     "integration",
 ]
+[tool.poetry]
+name = "linuxtips-dundie-rewards-project"
+version = "0.1.0"
+description = ""
+authors = ["Sambiase"]
+readme = "README.md"
+packages = [{include = "linuxtips_dundie_rewards_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.2.0"
+flake8 = "^6.0.0"
+pyproject-flake8 = "^6.0.0.post1"
+
+[tool.flake8]
+exclude =  ['.venv','build']
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
