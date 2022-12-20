@@ -17,3 +17,6 @@ upgrade_pip:
 
 test:
 	@.venv/bin/pytest -vv -s
+
+lint:
+	@.venv/bin/pflake8
